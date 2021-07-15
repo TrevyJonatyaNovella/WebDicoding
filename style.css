@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+
+body {
+   font-family: 'Quicksand', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+main {
+   padding: 20px;
+   overflow: auto;
+   line-height: 150%;
+}
+
+iframe {
+   
+   width: 510px;
+   height: 286px; 
+   margin-right: 20px;
+   float: left;
+   max-height: fit-content;
+}
+
+
+ h2 {
+    color: #f05454;
+ }
+  
+ h3 {
+    color: #f05454;
+ }
+
+ footer {
+   padding: 20px;
+   color: white;
+   background-color: #222831;
+   text-align: center;
+   font-weight: bold;
+}
+
+header {
+   display: inline;
+}
+
+nav {
+   background-color: #f05454;
+   padding: 2px;
+   position: sticky;
+   top: 0;
+}
+
+nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color: white;
+}
+
+nav a:hover {
+   font-weight: bold;
+}
+
+nav li {
+   display: inline;
+   list-style-type: none;
+   margin-right: 20px;
+}
+
+.p-about {
+   margin-top: 10px;
+   line-height: 150%;
+   text-align: justify;
+}
+
+.profile header {
+   text-align: center;
+}
+
+.featured-image {
+   width: 100%;
+   max-height: fit-content;
+   object-position: center;
+}
+
+.pathimg {
+   width: 50%;
+   max-height: fit-content;
+   object-position: center;
+   padding: 10px;
+}
+
+.bangkit {
+   width: 300px;
+   max-height: fit-content;
+   object-position: center;
+}
+
+.profile img {
+   width: 150px;
+}
+
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   color: black;
+   background-color: #e8e8e8;
+   border-radius: 10px;
+   padding: 20px;
+   margin-top: 20px;
+   overflow: auto;
+}
+
+
+.card-path {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+   overflow: auto;
+   display: flex;
+}
+
+
+
+.jumbotron {
+   font-size: 20px;
+   padding: 40px;
+   background-color: #e8e8e8;
+   text-align: center;
+   color: black;
+}
+
+#content {
+   float: left;
+   width: 75%;
+}
+
+#myBtn {
+      font-family: 'Quicksand', sans-serif;
+      background-color: #f05454;
+      border: #222831;
+      color: black;
+      padding: 15px 32px;
+      text-align: center;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      font-weight: 800;
+}
+
+#demog {
+   font-weight: 700;
+}
+#greet {
+   font-family: 'Quicksand', sans-serif;
+   font-weight: 800;
+   background-color: #f05454;
+   border: #222831;
+   color: black;
+   padding: 15px 32px;
+   text-align: center;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   cursor: pointer;
+}
+
+aside {
+   float: right;
+   width: 25%;
+   padding-left: 20px;
+   text-align: center;
+}
+
+.center {
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+@media screen and (max-width: 1000px) {
+   #content,
+   iframe,
+   aside,
+   .pathimg {
+       width: 100%;
+       padding: 0;
+   }
+}
+
+* {
+   box-sizing: border-box;
+}
